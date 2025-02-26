@@ -65,31 +65,27 @@ mvn spring-boot:run
 ```
 2. If you are prompted with a dialog box with the following question : `"Do you trust the authors of the files in this folder?"`, click `"Yes, I trust the authors"`
 3. From the explorer tab on the left open cloud-cap-samples-java/mta.yaml
-4. Uncomment the commented lines on Line102-106, Line32, Line25
-5. On Line2 : Replace ID value bookshop -> bookshop-xx (xx is the number on the sticky note attached to your computer system, for e.g. bookshop-07) 
-6. On Line86 : Replace xsappname value bookshop-test-hands-on -> bookshop-xx-hands-on (xx is the number on the sticky note attached to your computer system, for e.g. bookshop-07-hands-on) 
-7. On Line9 and Line52 : Update bookshop-test-srv -> bookshop-xx-srv (xx is the number on the sticky note attached to your computer system, for e.g. bookshop-07-srv) 
-8. On Line 41 : Update bookshop-test-db -> bookshop-xx-db (xx is the number on the sticky note attached to your computer system, for e.g. bookshop-07-db) 
-9. On Line 56 : Update bookshop-test-app -> bookshop-xx-app (xx is the number on the sticky note attached to your computer system, for e.g. bookshop-07-app) 
-10. From the explorer tab on the left open cloud-cap-samples-java/xs-security.json
-11. On Line 2 : Replace xsappname value bookshop-test-hands-on -> bookshop-xx-hands-on (xx is the number on the sticky note attached to your computer system, for e.g. bookshop-07-hands-on) 
-12. From the explorer tab on the left open cloud-cap-samples-java/srv/attachment-extension.cds and uncomment the commented lines
-13. From the explorer tab on the left open cloud-cap-samples-java/app/admin/fiori-service.cds and uncomment Line29-34
-14. From the explorer tab on the left open cloud-cap-samples-java/srv/pom.xml and uncomment Line20-24 [FIX SNAPSHOT VERSION]
-15. Open the terminal and execute the following commands [REVISIT - ADD PLUGIN TO .M2 FOR LAPTOPS AND REMOVE MTA FILES FROM ZIP]
+4. Uncomment the commented lines on 
+- Line102-106
+- Line32
+- Line25
+And make sure to save the file
+5. From the explorer tab on the left open cloud-cap-samples-java/srv/attachment-extension.cds, uncomment all the lines and save the file
+6. From the explorer tab on the left open cloud-cap-samples-java/app/admin/fiori-service.cds, uncomment Line29-34 and save the file
+7. From the explorer tab on the left open cloud-cap-samples-java/srv/pom.xml and uncomment Line20-24 and save the file 
+8. Open the terminal and execute the following commands 
 
 ```sh
    mbt build
 ```
 ```sh
-   cf deploy mta_archives/bookshop-xx_1.0.0.mtar -f
+   cf deploy mta_archives/bookshop-sit-hands-on_1.0.0.mtar -f
 ``` 
-(xx is the number on the sticky note attached to your computer system, for e.g. bookshop-07_1.0.0.mtar) 
 
-16. Once the deployment is successful, open subaccount>space_name>Applications>bookshop-xx-app (xx is the number on the sticky note attached to your computer system, for e.g. bookshop-07-app) 
-17. Open the Application Routes url [sample url] [REVISIT - ADD URL]
-18. Click on Manage Books
-19. Click on Create
-20. Scroll down to the ATTACHMENTS section and click on upload
-21. Select a file and click on Open [REVISIT - ADD TEST FILE TO ALL LAPTOPS]
-22. Once you see the hyperlink with the file name in the Attachment column click on create. [REVISIT - READ/RENAME?]
+9. Once the deployment is successful, open subaccount>space_name>Applications>bookshop-xx-app (xx is the number on the sticky note attached to your computer system, for e.g. bookshop-07-app) 
+10. Open the Application Routes url [sample url] [REVISIT - ADD URL]
+11. Click on Manage Books
+12. Click on Create
+13. Scroll down to the ATTACHMENTS section and click on upload
+14. Select a file and click on Open [REVISIT - ADD TEST FILE TO ALL LAPTOPS]
+15. Once you see the hyperlink with the file name in the Attachment column click on create. [REVISIT - READ/RENAME?]
