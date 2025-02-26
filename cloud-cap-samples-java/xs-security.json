@@ -1,5 +1,5 @@
 {
-	"xsappname": "bookshop-test-01-sit-hands-on",
+	"xsappname": "bookshop-sit-hands-on",
 	"tenant-mode": "dedicated",
 	"scopes": [
 		{

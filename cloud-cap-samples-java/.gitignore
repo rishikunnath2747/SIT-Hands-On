@@ -21,7 +21,6 @@ node/
 
 .mta/
 *.mtar
-mta.yaml
 
 *.log*
 gc_history*

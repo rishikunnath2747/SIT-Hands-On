@@ -26,7 +26,7 @@ cd ~/Desktop
 git clone https://github.com/rishikunnath2747/SIT-Hands-On.git
 ```
 ```sh
-cd SIT-Hands-On/cloud-cap-samples
+cd .\SIT-Hands-On\cloud-cap-samples-java\
 ```
 ```sh
 mvn spring-boot:run
@@ -39,7 +39,7 @@ mvn spring-boot:run
    INFO 94355 --- [  restartedMain] my.bookshop.Application                  : Started Application in 2.797 seconds (process running for 3.04)
 ```
 5. Open this url in the browser : http://localhost:8080/fiori.html
-6. Enter `admin` as the username and password
+6. Enter `admin` as both the username and password
 7. Click on the “Manage Books” tile
 
 ![Manage Books Tile](2manage-books.png)
@@ -48,11 +48,11 @@ mvn spring-boot:run
 
 ![Create Button](3create.png)
 
-9. This is how the UI looks like before integrating with SDM plugin
+9. This is how the UI looks like before integrating with SDM plugin. There is no option to upload any attachments.
 
 ![Entity](4entity-without-attachments.png)
 
-10. In the terminal, hit ctrl+c to stop the running application
+10. In the terminal, hit ctrl+c to stop the running application. If prompted with `Terminate batch job (Y/N)?` enter `y`.
 
 [REVISIT - ADD DETAILS EXPLAINING THE USE CASE OF PLUGIN]
 
