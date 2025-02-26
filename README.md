@@ -20,10 +20,13 @@ In this guide, we use the CAP cloud samples app to use the SDM Plugin
 3. Execute the following commands
 
 ```sh
-   copy ~/Desktop/src/cloud-cap-samples-java ~/Desktop
+   cd ~/Desktop
 ```
 ```sh
-   cd ~/Desktop/cloud-cap-samples-java
+   git clone https://github.com/rishikunnath2747/SIT-Hands-On.git
+```
+```sh
+   cd SIT-Hands-On/cloud-cap-samples
 ```
 ```sh
    mvn spring-boot:run
