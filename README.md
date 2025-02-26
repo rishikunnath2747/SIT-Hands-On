@@ -20,16 +20,16 @@ In this guide, we use the CAP cloud samples app to use the SDM Plugin
 3. Execute the following commands
 
 ```sh
-   cd ~/Desktop
+cd ~/Desktop
 ```
 ```sh
-   git clone https://github.com/rishikunnath2747/SIT-Hands-On.git
+git clone https://github.com/rishikunnath2747/SIT-Hands-On.git
 ```
 ```sh
-   cd SIT-Hands-On/cloud-cap-samples
+cd SIT-Hands-On/cloud-cap-samples
 ```
 ```sh
-   mvn spring-boot:run
+mvn spring-boot:run
 ```
 4. Wait for the application to start. Once it is running, in the terminal you will see logs similar to the example below.
 
