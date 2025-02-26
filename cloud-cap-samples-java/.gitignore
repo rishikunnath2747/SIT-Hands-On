@@ -18,7 +18,6 @@ target/
 *.iml
 
 node/
-node_modules/
 
 .mta/
 *.mtar
