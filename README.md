@@ -13,18 +13,17 @@ In this guide, we use the CAP cloud samples app to use the SDM Plugin
 ### Testing the application locally
 
 1. Open Visual Studio Code
-2. Open a new terminal [REVISIT - CHECK FOR WINDOWS]
+2. Open a new terminal 
+
+![New Terminal](1terminal.png)
+
 3. Execute the following commands
 
 ```sh
-   [REVISIT FOR WINDOWS]
-   cd ~/Desktop
+   copy ~/Desktop/src/cloud-cap-samples-java ~/Desktop
 ```
 ```sh
-   unzip cloud-cap-samples-java.zip
-```
-```sh
-   cd cloud-cap-samples-java
+   cd ~/Desktop/cloud-cap-samples-java
 ```
 ```sh
    mvn spring-boot:run
@@ -40,15 +39,15 @@ In this guide, we use the CAP cloud samples app to use the SDM Plugin
 6. Enter `admin` as the username and password
 7. Click on the “Manage Books” tile
 
-![Manage Books Tile](1manage-books.png)
+![Manage Books Tile](2manage-books.png)
 
 8. Click on create button
 
-![Create Button](2create.png)
+![Create Button](3create.png)
 
 9. This is how the UI looks like before integrating with SDM plugin
 
-![Entity](3entity-without-attachments.png)
+![Entity](4entity-without-attachments.png)
 
 10. In the terminal, hit ctrl+c to stop the running application
 
