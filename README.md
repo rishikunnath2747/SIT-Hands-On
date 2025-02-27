@@ -69,7 +69,9 @@ mvn spring-boot:run
 - Line102-106
 - Line32
 - Line25
+
 And make sure to save the file
+
 5. From the explorer tab on the left open cloud-cap-samples-java/srv/attachment-extension.cds, uncomment all the lines and save the file
 6. From the explorer tab on the left open cloud-cap-samples-java/app/admin/fiori-service.cds, uncomment Line29-34 and save the file
 7. From the explorer tab on the left open cloud-cap-samples-java/srv/pom.xml and uncomment Line20-24 and save the file 

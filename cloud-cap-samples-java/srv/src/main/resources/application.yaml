@@ -63,7 +63,7 @@ cds:
       type: "odata-v2"
       http:
         headers:
-          APIKey: "" # Place API Key from SAP API Business Hub here or use environment variable CDS_REMOTE_SERVICES_API_BUSINESS_PARTNER_HTTP_HEADERS_APIKEY
+          APIKey: "LhG7AvrAVrs-TO3M0E-Y3wjoCU5zFzvt" # Place API Key from SAP API Business Hub here or use environment variable CDS_REMOTE_SERVICES_API_BUSINESS_PARTNER_HTTP_HEADERS_APIKEY
       destination:
         properties:
           url: "https://sandbox.api.sap.com/s4hanacloud/sap/opu/odata/sap"
