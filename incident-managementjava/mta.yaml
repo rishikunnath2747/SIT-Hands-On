@@ -143,6 +143,8 @@ resources:
     parameters:
       service: hana
       service-plan: hdi-shared
+      config:
+        database_id: 344225ef-5861-47da-9f65-427b8e997973
   - name: incident-management-html5-repo-host
     type: org.cloudfoundry.managed-service
     parameters:
