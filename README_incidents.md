@@ -26,7 +26,7 @@ cd ~/Desktop/SIT-Hands-On/incident-managementjava
 ```
 5. If you are prompted with a dialog box with the following question : `"Do you trust the authors of the files in this folder?"`, click `"Yes, I trust the authors"`
 
-6. From the explorer tab on the left open /incident-managementjava/app/incidents/dist/manifest.json
+6. From the explorer tab on the left open /incident-managementjava/app/incidents/webapp/manifest.json
 
 7. On Line8, replace the value of `version` with the value given in the setup.txt file on your desktop
 
@@ -53,7 +53,7 @@ cd ~/Desktop/SIT-Hands-On/incident-managementjava
 > In the srv/pom.xml file 
 > - On Line77-81 we add the Java dependency for the SDM plugin
 
-10. Open the terminal and execute the following commands 
+10. Open the `cmd` and execute the following commands 
 
 ```sh
    mbt build
