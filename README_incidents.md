@@ -16,10 +16,7 @@ In this guide, we use the Incidents Management app to use the SDM Plugin
 3. Execute the following commands
 
 ```sh
-cd ~/Desktop/SIT-Hands-On/incidents-managementjava
-```
-```sh
-cd .\SIT-Hands-On\incidents-managmentjava\
+cd ~/Desktop/SIT-Hands-On/incident-managementjava
 ```
 
 4. In the terminal execute the command given below 
@@ -54,7 +51,7 @@ cd .\SIT-Hands-On\incidents-managmentjava\
 > - On Line45-50 we add the UI Facet so that we see the attachments section on the UI
 >
 > In the srv/pom.xml file 
-> - On Line75 we add the Java dependency for the SDM plugin
+> - On Line77-81 we add the Java dependency for the SDM plugin
 
 10. Open the terminal and execute the following commands 
 
