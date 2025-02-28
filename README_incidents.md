@@ -12,17 +12,11 @@ This plugin can be consumed by the CAP application deployed on BTP to store thei
 In this guide, we use the Incidents Management app to use the SDM Plugin
 
 1. Open Visual Studio Code
-2. Open a new terminal 
-
-![New Terminal](1terminal.png)
-
+2. Open a new terminal using Ctrl+Shift+`
 3. Execute the following commands
 
 ```sh
-cd ~/Desktop
-```
-```sh
-git clone https://github.com/rishikunnath2747/SIT-Hands-On.git
+cd ~/Desktop/SIT-Hands-On/incidents-managementjava
 ```
 ```sh
 cd .\SIT-Hands-On\incidents-managmentjava\
