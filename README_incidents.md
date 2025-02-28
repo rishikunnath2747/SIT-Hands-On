@@ -26,14 +26,6 @@ cd ~/Desktop/SIT-Hands-On/incident-managementjava
 ```
 5. If you are prompted with a dialog box with the following question : `"Do you trust the authors of the files in this folder?"`, click `"Yes, I trust the authors"`
 
-6. From the explorer tab on the left open /incident-managementjava/app/incidents/webapp/manifest.json
-
-7. On Line8, replace the value of `version` with the value given in the setup.txt file on your desktop
-
-8. From the explorer tab on the left open incidents-managementjava/mta.yaml
-
-9. On Line20, replace the value of `REPOSITORY_ID` with the value given in the setup.txt file on your desktop
-
 > **INTEGRATING THE SDM PLUGIN**
 >
 > This note is for your information, the following steps do not need to be followed and have already been done for you
@@ -53,7 +45,7 @@ cd ~/Desktop/SIT-Hands-On/incident-managementjava
 > In the srv/pom.xml file 
 > - On Line77-81 we add the Java dependency for the SDM plugin
 
-10. Open the `cmd` and execute the following commands 
+6. Open the `cmd` and execute the following commands 
 
 ```sh
    mbt build
@@ -62,9 +54,9 @@ cd ~/Desktop/SIT-Hands-On/incident-managementjava
    cf deploy mta_archives/incident-management_1.0.0.mtar -f
 ``` 
 
-11. Once the deployment is successful, open subaccount>HTML5 Applications and click on ns.incidents with the version you added in step 7
-12. Click on Manage Books
-13. Click on Create
-14. Scroll down to the ATTACHMENTS section and click on upload
-15. Select a file and click on Open [REVISIT - ADD TEST FILE TO ALL LAPTOPS]
-16. Once you see the hyperlink with the file name in the Attachment column click on create. [REVISIT - READ/RENAME?]
+7. Once the deployment is successful, open subaccount>HTML5 Applications and click on ns.incidents with the version you added in step 7
+8. Click on Manage Books
+9. Click on Create
+10. Scroll down to the ATTACHMENTS section and click on upload
+11. Select a file and click on Open [REVISIT - ADD TEST FILE TO ALL LAPTOPS]
+12. Once you see the hyperlink with the file name in the Attachment column click on create. [REVISIT - READ/RENAME?]
