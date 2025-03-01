@@ -44,10 +44,10 @@ cd ~/Desktop/SIT-Hands-On/incident-managementjava
 > In the srv/pom.xml file 
 > - On Line77-81 we add the Java dependency for the SDM plugin
 
-6. Open the `Command Prompt` and execute the following commands 
+6. In the terminal execute the following commands 
 
 ```sh
-   cd Desktop\SIT-Hands-On\incident-managementjava
+   cmd
 ```
 ```sh
    mbt build
