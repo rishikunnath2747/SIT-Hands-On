@@ -47,6 +47,9 @@ cd ~/Desktop/SIT-Hands-On/incident-managementjava
 6. Open the `Command Prompt` and execute the following commands 
 
 ```sh
+   cd Desktop\SIT-Hands-On\incident-managementjava
+```
+```sh
    mbt build
 ```
 ```sh
@@ -56,6 +59,10 @@ cd ~/Desktop/SIT-Hands-On/incident-managementjava
 7. Once the deployment is successful, open the app url given in the user.txt file on the desktop
 8. Click on Manage Books
 9. Click on Create
+
+> Note that there is an attachments UI section on this page, which is an out-of-the-box interface that appears automatically when 
+> integrating the SDM plugin. This equips your CAP application with built-in support for CRUD operations on attachments.
+
 10. Make sure to the set some value in the `Customer` and `Title`fields
 10. Scroll down to the ATTACHMENTS section and click on upload
 11. Select the user.txt file present on the desktop
