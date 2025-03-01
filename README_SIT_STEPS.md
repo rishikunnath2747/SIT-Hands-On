@@ -65,8 +65,10 @@ cd ~/Desktop/SIT-Hands-On/incident-managementjava
 
 ![Create](7create.png)
 
-> Note that there is an attachments UI section on this page, which is an out-of-the-box interface that appears automatically when 
+> Note that there is an attachments UI section on this page (refer to the image given below), which is an out-of-the-box interface that appears automatically when 
 > integrating the SDM plugin. This equips your CAP application with built-in support for CRUD operations on attachments.
+>
+> ![Attachments Section](9attachments.png)
 
 10. Make sure to the set some value in the `Customer` and `Title`fields
 
